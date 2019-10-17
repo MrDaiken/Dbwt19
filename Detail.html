@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/css/all.css">
+    <link href="Start.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-3">
+            <h4>e-Mensa</h4>
+        </div>
+        <div class="col-6">
+           <!-- <a href="Start.html">Start</a> | Mahlzeiten | Bestellung | <a class="nav-link" href="http://fh-aachen.de" target="_blank">FH-Aachen</a> -->
+
+            <ul class="nav">
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="Start.html">Start</a>
+                </li>
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="Produkte.html">Mahlzeiten</a>
+                </li>
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="#">Bestellung</a>
+                </li>
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="http://fh-aachen.de" target="_blank">FH-Aachen</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-3">
+            <form action="https://www.google.de/search" target="_blank">
+                <input name="q" type="search" placeholder="Suchen ...">
+                <input name="as_sitesearch" type="hidden" value="http://fh-aachen.de/"> <!-- umleitung auf seiten mit fh aachen -->
+            </form>
+        </div>
+    </div>
+    <hr/>
+
+    <div class="row"> <!-- Haupt inhalt der Seite-->
+
+            <div class="col-3">
+                <!-- Leeres Feld-->
+
+            </div>
+            <div class="col-9">
+                <h4>Details für Falafel </h4>
+            </div>
+    </div>
+
+        <div class="row pt-4">
+            <div class="col-3">
+                <!-- Login Bereich -->
+<form method="post" action="#"> <!-- es gibt hier noch keine Aktion-->
+    <fieldset class="form-group border p-2">
+        <legend class="col-form-label w-auto">Login</legend>
+                    <input type="text" id="inputUser" placeholder="Benutzer">
+
+                    <input type="password" id="inputPassword" placeholder="*******">
+
+        <button type="submit" class="btn btn-link">Anmelden</button>
+                </fieldset>
+
+</form>
+            </div>
+            <div class="col-6">
+                <img src="BilderWebsite\falafel-4544137_1280.jpg" class="startbild" alt="Responsive image">
+            </div>
+            <div class="col-3">
+            <div class="row">
+                <p>Gast-Preis
+                <br>
+                5,95 Euro</p>
+            </div>
+                <div class="row">
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-utensils"></i> Vorbestellen</button>
+                </div>
+            </div>
+
+        </div>
+    <div class="row pt-4">
+        <div class="col-3">
+            <p>Melden Sie sich jetzt an, um die wirklich viel
+                günstigeren preise für Mitarbeiter oder Studenten zu sehen.</p>
+        </div>
+        <div class="col-5">
+            <fieldset>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Beschreibung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Zutaten</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Bewertungen</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Teigtaschen mit Falafel aus kichererbsen und Sesam, dazu passt herrvorragend der Krautsalat</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <form action="http://bc5.m2c-lab.fh-aachen.de/form.php" method="post">
+                            <input type="hidden"  name="matrikel" value="3163679">
+                            <input type="hidden"  name="kontrolle" value="Kle">
+                            <fieldset class="form-group border p-2">
+                              <div class="row">
+                                  <div class="col-3">
+                                      Mahlzeit
+                                  </div>
+                                  <div class="col-5">
+                                      <select class="form-control" id="Mahlzeit" >
+                                          <option>Falafel</option>
+                                          <option>2</option>
+                                          <option>3</option>
+                                          <option>4</option>
+                                      </select>
+                                  </div>
+                              </div>
+                                <div class="row pt-2" >
+                                    <div class="col-3">
+                                        Benutzername
+                                    </div>
+                                    <div class="col-5">
+                                        <input name="text">
+                                    </div>
+                                </div>
+                                <div class="row pt-2">
+                                    <div class="col-3">
+                                        Bewertung
+                                    </div>
+                                    <div class="col">
+                                        <select class="form-control" id="Bewertung" >
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row pt-2">
+                                    <div class="col-3">
+                                        Bemerkung
+                                    </div>
+                                    <div class="col">
+                                        <input name="text">
+                                    </div>
+                                </div>
+                                <div class="row pt-2">
+                                    <div class="col-3">
+
+                                    </div>
+                                    <div class="col">
+                                        <button type="button" class="btn btn-secondary btn-block" id="knopf2"> Bewertung absenden</button>
+                                    </div>
+                                </div>
+
+
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+
+    <hr/>
+    <div class="row">
+        <div class="col-2">
+            &#169;<!-- Copyright zeichen--> 2017 DBWT
+        </div>
+        <div class="col-6">
+            <ul class="nav">
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="#">Registrieren</a>
+                </li>
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="#">Zutatenliste</a>
+                </li>
+                <li class="nav-item nav-border-right">
+                    <a class="nav-link" href="Impressum.html">Impressum</a> <!-- impressum.html -->
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
